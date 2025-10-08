@@ -9,6 +9,9 @@ import "react-toastify/dist/ReactToastify.css";
 export default function DeletePatient() {
   const [patients, setPatients] = useState([]);
   const [error, setError] = useState("");
+  export default function DeletePatient() {
+  const [patients, setPatients] = useState([]);
+  const [error, setError] = useState("");
 
   const fetchPatients = async () => {
     try {
