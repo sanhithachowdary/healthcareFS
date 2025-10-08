@@ -11,7 +11,9 @@ export default function PatientHome() {
   const handleViewDoctors = () => {
     navigate('/doctors');
   };
-
+const handleBookAppointment = () => {
+    navigate('/book-appointment');
+  };
   const handleMyAppointments = () => {
     navigate('/my-appointments');
   };
